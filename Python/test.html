@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+function copyUrl() {
+var Url = document.getElementById("url1");
+Url.select(); // 选择bai对象
+document.execCommand("Copy"); // 执行浏览器复du制命令
+alert("已复zhi制好dao，可贴zhuan粘。");
+}
+</script>
+<input type="text" value="www.xxx.com" id="url1" />
+<input type="button" onClick="copyUrl()" value="点击复制代shu码" />
+
+</body>
+</html>
